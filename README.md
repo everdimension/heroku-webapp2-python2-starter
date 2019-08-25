@@ -1,9 +1,13 @@
-# Heroku + webapp2 + python 2.5 starter
+# Heroku + webapp2 + python 2.7 starter
 
 This is a sample repository to help you get started
 with `heroku` and `webapp2` framework.
 
 ## Development
+
+This repository already has a "heroku app" associated with it.
+For new repositories, you need to "create" a heroku app first:
+https://devcenter.heroku.com/articles/creating-apps
 
 ### Install heroku
 
@@ -44,5 +48,5 @@ The following files are required by heroku:
 ```
 
 Dependency `psycopg2==2.7` is not needed for the projects, but heroku fails
-to deploy if you don't list it, because by default it tries to install psycopg2==2.7,
-which breaks the build ¯\_(ツ)_/¯
+to deploy if you don't list it, because by default it tries to install `psycopg2==2.6`,
+which breaks the build ¯\\\_(ツ)\_/¯
