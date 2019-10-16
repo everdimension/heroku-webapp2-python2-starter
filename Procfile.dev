@@ -1,0 +1,1 @@
+watch: gunicorn --reload main:app
