@@ -29,8 +29,8 @@ see [this article](https://help.github.com/en/articles/fork-a-repo)
 ### 3. Using git, clone the the forked repo to your computer
 
 Assuming you forked this repo to `<your-github-account>`, open your terminal and run this command
-<pre><code>
-git clone git@github.com:<b>&lt;your-github-account&gt;</b>/heroku-webapp2-python2-starter.git
+
+<pre><code>git clone git@github.com:<b>&lt;your-github-account&gt;</b>/heroku-webapp2-python2-starter.git
 </code></pre>
 
 ### 4. Install project dependencies
@@ -43,7 +43,6 @@ Then, run this command:
 ```
 pip install -r requirements.txt
 ```
-
 
 ### 5. Install heroku
 
@@ -92,7 +91,7 @@ You should now be able to open your browser and navigate to
 web application on your computer!
 
 #### Stopping the server
-`heroku local` command launched a local "server" which accepts http requests.
+`heroku local` command launches a local "server" which accepts http requests.  
 To stop this server, press <kbd>ctrl + c</kbd> (<kbd>command + c</kbd> on Mac).
 
 ### Deploy
