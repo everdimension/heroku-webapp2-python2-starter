@@ -53,7 +53,7 @@ pip install -r requirements.txt
   at `<your-app-name>.herokuapp.com`
 </details>
 
-First, create an account on https://heroku.com  
+First, create a Heroku account on https://heroku.com  
 Then, see [heroku installation instructions](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
 After installing heroku, you need *login* to heroku in your terminal by
 running `heroku login` command. See
