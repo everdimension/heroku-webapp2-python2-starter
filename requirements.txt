@@ -2,4 +2,4 @@ gunicorn==19.9.0
 webapp2==2.5.2
 WebOb==1.8.5 # a dependency of webapp2
 psycopg2==2.7 # heroku tries to install 2.6 by default and crashes ¯\_(ツ)_/¯
-waitress==1.4.1
+waitress==1.4.2
